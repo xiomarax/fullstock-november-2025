@@ -31,12 +31,17 @@ body {
 }
 
 p,
-li {
+li,
+.formato-cabecera {
   line-height: 28px;
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0%;
+}
+
+p,
+li {
   width: 704px;
 }
 
@@ -71,7 +76,9 @@ footer {
 .contenedor-footer {
   width: 1216px;
   height: 64px;
+  gap: 16px;
 }
+
 .contenedor {
   width: 768px;
   height: 1140px;
