@@ -2,19 +2,43 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: black;
+  color: aliceblue;
 }
 
 header {
   width: 1440px;
   height: 64px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
+}
+
+.contenedor-cabecera,
+.contenedor-footer {
+  width: 1216px;
+  height: 64px;
+}
+
+body {
+  font-family: FuenteInter, Arial, sans-serif;
+  letter-spacing: 0%;
 }
 
 main {
   width: 1440px;
-  height: 1268px;
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+#main-quienes-somos {
+  height: 1236px;
+}
+
+#main-privacidad {
+  height: 2512px;
+}
+
+#main-terminos {
+  height: 2540px;
 }
 
 @font-face {
@@ -23,11 +47,6 @@ main {
     format("truetype");
   font-weight: 400;
   font-style: normal;
-}
-
-body {
-  font-family: FuenteInter, Arial, sans-serif;
-  letter-spacing: 0%;
 }
 
 p,
@@ -40,10 +59,20 @@ li,
   letter-spacing: 0%;
 }
 
-p,
+.contenedor-main {
+  width: 768px;
+  height: 1140px;
+  max-width: 768px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-bottom: 1px;
+  margin: auto;
+}
+
+/* p,
 li {
   width: 704px;
-}
+} */
 
 ul {
   width: 704px;
@@ -60,11 +89,11 @@ li {
 footer {
   width: 1440px;
   height: 64px;
-  border-top: 1px solid black;
+  border-top: 1px solid white;
 }
 
-.cabecera,
-.pie-pagina {
+#header,
+#footer {
   width: 1280px;
   height: 64px;
   max-width: 1280px;
@@ -72,70 +101,147 @@ footer {
   padding-right: 32px;
 }
 
-.contenedor-cabecera,
-.contenedor-footer {
-  width: 1216px;
-  height: 64px;
-  gap: 16px;
-}
-
-.contenedor {
-  width: 768px;
-  height: 1140px;
-  max-width: 768px;
-  padding-left: 32px;
-  padding-right: 32px;
-  border-bottom: 1px;
-  margin: auto;
-}
-
-.subtitulo,
+/* .subtitulo,
 #titulo-principal {
   font-size: 24px;
   line-height: 32px;
-}
+} */
 
 .subtitulo {
   font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  width: 704px;
+  height: 32px;
+  letter-spacing: 0;
 }
 
-#titulo-principal {
+.titulo-principal {
   font-weight: 800;
   width: 704px;
   height: 40px;
   font-size: 36px;
   line-height: 40px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   margin-bottom: 32px;
 }
 
-#parrafo-bienvenida {
-  height: 84px;
-  margin-bottom: 48px;
+.article-quienes-somos {
+  width: 704px;
+  height: 164px;
 }
 
-#parrafo-historia-p1 {
-  height: 112px;
-  margin-top: 24px;
+.seccion1-quienes-somos {
+  width: 704px;
+  height: 320px;
 }
 
-#parrafo-historia-p2 {
-  height: 84px;
-  margin-bottom: 28px;
+.seccion2-quienes-somos {
+  width: 704px;
+  height: 188px;
 }
 
-#parrafo-mision {
-  height: 84px;
-  margin-bottom: 48px;
-  margin-top: 24px;
+.seccion3-quienes-somos {
+  width: 704px;
+  height: 372px;
 }
 
-#parrafo-valores {
-  height: 28px;
-  margin-bottom: 20px;
-  margin-top: 24px;
-}
-
-#parrafo-agradecimiento {
+.seccion4-quienes-somos {
+  width: 704px;
   height: 56px;
+}
+
+.article-privacidad {
+  width: 704px;
+  height: 232px;
+}
+
+.seccion1-privacidad {
+  width: 704px;
+  height: 244px;
+}
+
+.seccion2-privacidad {
+  width: 704px;
+  height: 356px;
+}
+
+.seccion3-privacidad {
+  width: 704px;
+  height: 364px;
+}
+
+.seccion4-privacidad {
+  width: 704px;
+  height: 216px;
+}
+
+.seccion5-privacidad {
+  width: 704px;
+  height: 188px;
+}
+
+.seccion6-privacidad {
+  width: 704px;
+  height: 392px;
+}
+
+.seccion7-privacidad {
+  width: 704px;
+  height: 188px;
+}
+
+.seccion8-privacidad {
+  width: 704px;
+  height: 236px;
+}
+
+.article-terminos {
+  width: 704px;
+  height: 224px;
+}
+
+.seccion1-terminos {
+  width: 704px;
+  height: 188px;
+}
+
+.seccion2-terminos {
+  width: 704px;
+  height: 308px;
+}
+
+.seccion3-terminos {
+  width: 704px;
+  height: 344px;
+}
+
+.seccion4-terminos {
+  width: 704px;
+  height: 344px;
+}
+
+.seccion5-terminos {
+  width: 704px;
+  height: 288px;
+}
+
+.seccion6-terminos {
+  width: 704px;
+  height: 260px;
+}
+
+.seccion7-terminos {
+  width: 704px;
+  height: 188px;
+}
+
+.seccion8-terminos {
+  width: 704px;
+  height: 188px;
+}
+
+.seccion9-terminos {
+  width: 704px;
+  height: 112px;
 }
