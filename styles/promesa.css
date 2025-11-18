@@ -1,0 +1,14 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: black;
+  color: antiquewhite; */
+}
+
+body {
+  font-family: FuenteInter, Arial, sans-serif;
+  letter-spacing: 0%;
+}

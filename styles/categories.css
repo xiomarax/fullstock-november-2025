@@ -1,0 +1,150 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: black;
+  color: antiquewhite; */
+}
+
+body {
+  font-family: FuenteInter, Arial, sans-serif;
+  letter-spacing: 0%;
+}
+
+header {
+  width: 1440px;
+  height: 64px;
+  border-bottom: 1px #222226;
+}
+
+main {
+  max-width: 80rem;
+  margin: 3rem auto;
+  padding: 0 2rem;
+}
+
+/* .contenedor-header {
+  width: 1280px;
+  height: 64px;
+  padding-right: 32px;
+  padding-left: 32px;
+  max-width: 1280px;
+}
+
+.contenedor-header-child {
+  width: 1216px;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+} */
+
+/* .logo {
+  width: 160px;
+  height: 40px;
+}
+
+.nav-item {
+  width: 204px;
+  height: 64px;
+}
+
+.cart {
+  width: 24px;
+  height: 24px;
+} */
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedor-header {
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: 1.25rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item-ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.contenedor-categories {
+  margin-bottom: 3rem;
+}
+
+.categories_heading {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.categories_parrafo {
+  font-weight: 400;
+  line-height: 1.75rem;
+  margin-bottom: 1.25rem;
+  color: rgb(29, 27, 27);
+  max-width: 48rem;
+  margin-bottom: 2.5rem;
+}
+
+/* .contenedor-tarjetas {
+  width: 1216px;
+  height: 588px;
+  display: flex;
+} */
+
+.contenedor-tarjetas {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.tarjeta-img {
+  margin-bottom: 1rem;
+}
+
+.tarjeta-heading {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.tarjeta-parrafo {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  color: rgb(29, 27, 27);
+}
+
+/* .tarjeta {
+  width: 384px;
+  height: 568px;
+  justify-content: space-between;
+}
+
+.tarjeta-polos,
+.tarjeta-tazas,
+.tarjeta-stickers {
+  width: 384px;
+  height: 480px;
+  border-radius: 12px;
+  /* gap: 10x; 
+} */
+
+@media (condición) {
+    /* Estilos a aplicar si la condición es verdadera */
+}
