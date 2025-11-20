@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <link rel="stylesheet" href="../styles/categories.css" /> -->
-    <link rel="stylesheet" href="../styles/index.css" />
-    <title>Categories</title>
+    <link rel="stylesheet" href="/styles/index.css" />
+    <title>Home</title>
   </head>
   <body>
     <header class="contenedor-header">
@@ -27,63 +27,69 @@
     </header>
 
     <main>
-      <section class="contenedor-categories">
-        <h1 class="categories_heading">Compra por categoría</h1>
-        <p class="categories_parrafo categories__intro">
-          Explora nuestra selección de productos especialmente diseñados para
-          desarrolladores web. Encuentra lo que buscas navegando por nuestras
-          categorías de polos, tazas, stickers y más.
-        </p>
+      <section class="hero">
+        <div>
+          <h1>Nuevos productos disponibles</h1>
+          <p>
+            Un pequeño lote de increíbles productos acaba de llegar. Agrega tus
+            favoritos al carrito antes que se agoten.
+          </p>
+          <a href="">Compra ahora</a>
+        </div>
       </section>
 
-      <section class="contenedor-tarjetas">
-        <article class="tarjeta">
-          <img
-            class="tarjeta-img"
-            src="../images/polos.png"
-            alt=""
-            width="384px"
-            height="480px"
-          />
+      <section class="container">
+        <section class="contenedor-categories">
+          <div>
+            <h1 class="categories_heading">Compra por categoría</h1>
+            <p class="categories_parrafo categories__intro">
+              Explora nuestra selección de productos especialmente diseñados
+              para desarrolladores web. Encuentra lo que buscas navegando por
+              nuestras categorías de polos, tazas, stickers y más.
+            </p>
+          </div>
+        </section>
 
-          <h4 class="tarjeta-heading">Polos</h4>
-          <p class="tarjeta-parrafo">
-            Polos exclusivos con diseños que todo desarrollador querrá lucir.
-            Ideales para llevar el código a donde vayas.
-          </p>
-        </article>
+        <section class="contenedor-tarjetas">
+          <a href="#" class="category">
+            <div class="category__image">
+              <img src="../images/polos.png" alt="" />
+            </div>
+            <div>
+              <h4 class="category__title">Polos</h4>
+              <p class="category__description">
+                Polos exclusivos con diseños que todo desarrollador querrá
+                lucir. Ideales para llevar el código a donde vayas.
+              </p>
+            </div>
+          </a>
 
-        <article class="tarjeta">
-          <img
-            class="tarjeta-img"
-            src="../images/tazas.png"
-            alt=""
-            width="384px"
-            height="480px"
-          />
+          <a href="#" class="category">
+            <div class="category__image">
+              <img src="../images/tazas.png" alt="" />
+            </div>
+            <div>
+              <h4 class="category__title">Tazas</h4>
+              <p class="category__description">
+                Tazas que combinan perfectamente con tu café matutino y tu
+                pasión por la programación. ¡Empieza el día con estilo!
+              </p>
+            </div>
+          </a>
 
-          <h4 class="tarjeta-heading">Tazas</h4>
-          <p class="tarjeta-parrafo">
-            Tazas que combinan perfectamente con tu café matutino y tu pasión
-            por la programación. ¡Empieza el día con estilo!
-          </p>
-        </article>
-
-        <article class="tarjeta">
-          <img
-            class="tarjeta-img"
-            src="../images/stickers.png"
-            alt=""
-            width="384px"
-            height="480px"
-          />
-
-          <h4 class="tarjeta-heading">Stickers</h4>
-          <p class="tarjeta-parrafo">
-            Personaliza tu espacio de trabajo con nuestros stickers únicos y
-            muestra tu amor por el desarrollo web.
-          </p>
-        </article>
+          <a href="#" class="category">
+            <div class="category__image">
+              <img src="../images/stickers.png" alt="" />
+            </div>
+            <div>
+              <h4 class="category__title">Stickers</h4>
+              <p class="category__description">
+                Personaliza tu espacio de trabajo con nuestros stickers únicos y
+                muestra tu amor por el desarrollo web.
+              </p>
+            </div>
+          </a>
+        </section>
       </section>
 
       <section class="contenedor-promesa">
@@ -125,7 +131,65 @@
 
     <footer>
       <section>
-        
+        <div>
+          <article>
+            <h4>Tienda</h4>
+            <nav>
+              <ul>
+                Polos
+              </ul>
+              <ul>
+                Tazas
+              </ul>
+              <ul>
+                Stickers
+              </ul>
+            </nav>
+          </article>
+          <article>
+            <h4>Compañía</h4>
+            <nav>
+              <ul>
+                Quienes somos
+              </ul>
+              <ul>
+                Términos y condiciones
+              </ul>
+              <ul>
+                Privacidad
+              </ul>
+            </nav>
+          </article>
+          <article>
+            <h4>Conecta</h4>
+            <nav>
+              <ul>
+                WhatsApp
+              </ul>
+              <ul>
+                Facebook
+              </ul>
+              <ul>
+                Instagram
+              </ul>
+            </nav>
+          </article>
+        </div>
+
+        <div>
+          <h3>Suscríbete a nuestro boletín</h3>
+          <p>
+            Recibe las últimas ofertas y descuentos en tu correo semanalmente.
+          </p>
+          <form action="">
+            <input type="text" />
+            <button>Suscribirse</button>
+          </form>
+        </div>
+
+        <div>
+          <p>Todos los derechos reservados © Full Stock</p>
+        </div>
       </section>
     </footer>
   </body>
