@@ -1,0 +1,18 @@
+.category {
+  display: flex;
+}
+
+/* para cell */
+@media (max-width: 23rem) {
+  .categories {
+    flex-direction: column;
+  }
+}
+
+/* para ordenadores */
+@media (min-width: 71rem) {
+  .categories {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
