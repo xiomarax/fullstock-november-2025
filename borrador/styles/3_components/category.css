@@ -10,7 +10,7 @@
 
 .category__image img {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1 / 1; /* para que ocupe el mismo largo y ancho */
   object-fit: cover;
 }
 
