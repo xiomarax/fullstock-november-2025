@@ -1,5 +1,7 @@
 .category {
   flex: 1;
+  max-width: 24rem;
+  max-height: 30rem;
 }
 
 .category__image {
@@ -15,7 +17,9 @@
 }
 
 .category__title {
+  color: var(--black);
   font-weight: 600;
+  line-height: 1.5rem;
   margin-bottom: 0.5rem;
 }
 

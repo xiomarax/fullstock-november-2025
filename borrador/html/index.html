@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <link rel="stylesheet" href="../styles/categories.css" /> -->
-    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="../styles/index.css" />
     <title>Home</title>
   </head>
   <body>
@@ -26,110 +26,142 @@
       </div>
     </header>
 
-    <main>
-      <section class="hero">
-        <div>
-          <h1>Nuevos productos disponibles</h1>
-          <p>
+    <main class="main">
+      <!-- <section class="hero">
+        <div class="hero__container">
+          <h2 class="hero__title">Nuevos productos disponibles</h2>
+          <p class="hero__description">
             Un pequeño lote de increíbles productos acaba de llegar. Agrega tus
             favoritos al carrito antes que se agoten.
           </p>
-          <a href="">Compra ahora</a>
+          <a href="" class="hero__button">Compra ahora</a>
         </div>
-      </section>
+      </section> -->
 
-      <section class="">
-        <section class="presentation">
-          <div>
-            <h1 class="presentation__heading">Compra por categoría</h1>
-            <p class="presentation__parrafo">
+      <section class="section categories">
+        <div class="container">
+          <div class="categories__intro">
+            <h1 class="categories__title">Compra por categoría</h1>
+            <p class="categories__description">
               Explora nuestra selección de productos especialmente diseñados
               para desarrolladores web. Encuentra lo que buscas navegando por
               nuestras categorías de polos, tazas, stickers y más.
             </p>
           </div>
-        </section>
 
-        <section class="categories">
-          <a href="#" class="category">
-            <div class="category__image">
-              <img src="../images/polos.png" alt="" wi />
-            </div>
-            <div clas="category__text">
-              <h4 class="category__title">Polos</h4>
-              <p class="category__description">
-                Polos exclusivos con diseños que todo desarrollador querrá
-                lucir. Ideales para llevar el código a donde vayas.
-              </p>
-            </div>
-          </a>
+          <div class="categories__list">
+            <a href="#" class="category">
+              <div class="category__image">
+                <img src="../images/polos.png" alt="" />
+              </div>
+              <div>
+                <h4 class="category__title">Polos</h4>
+                <p class="category__description">
+                  Polos exclusivos con diseños que todo desarrollador querrá
+                  lucir. Ideales para llevar el código a donde vayas.
+                </p>
+              </div>
+            </a>
 
-          <a href="#" class="category">
-            <div class="category__image">
-              <img src="../images/tazas.png" alt="" />
-            </div>
-            <div>
-              <h4 class="category__title">Tazas</h4>
-              <p class="category__description">
-                Tazas que combinan perfectamente con tu café matutino y tu
-                pasión por la programación. ¡Empieza el día con estilo!
-              </p>
-            </div>
-          </a>
+            <a href="#" class="category">
+              <div class="category__image">
+                <img src="../images/tazas.png" alt="" />
+              </div>
+              <div>
+                <h4 class="category__title">Tazas</h4>
+                <p class="category__description">
+                  Tazas que combinan perfectamente con tu café matutino y tu
+                  pasión por la programación. ¡Empieza el día con estilo!
+                </p>
+              </div>
+            </a>
 
-          <a href="#" class="category">
-            <div class="category__image">
-              <img src="../images/stickers.png" alt="" />
-            </div>
-            <div>
-              <h4 class="category__title">Stickers</h4>
-              <p class="category__description">
-                Personaliza tu espacio de trabajo con nuestros stickers únicos y
-                muestra tu amor por el desarrollo web.
-              </p>
-            </div>
-          </a>
-        </section>
+            <a href="#" class="category">
+              <div class="category__image">
+                <img src="../images/stickers.png" alt="" />
+              </div>
+              <div>
+                <h4 class="category__title">Stickers</h4>
+                <p class="category__description">
+                  Personaliza tu espacio de trabajo con nuestros stickers únicos
+                  y muestra tu amor por el desarrollo web.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
       </section>
 
-      <section class="contenedor-promesa">
-        <h2>Nuestra Promesa de Calidad</h2>
-        <article>
-          <img src="../images/Frame1.png" alt="" />
-          <h4>Entrega rápida</h4>
-          <p>
-            Recibe tus productos en tiempo récord, directo a tu puerta, para que
-            puedas disfrutar de ellos cuanto antes.
-          </p>
-        </article>
-        <article>
-          <img src="../images/Frame2.png" alt="" />
-          <h4>Satisfacción Garantizada</h4>
-          <p>
-            Tu felicidad es nuestra prioridad. Si no estás 100% satisfecho,
-            estamos aquí para ayudarte con cambios o devoluciones.
-          </p>
-        </article>
-        <article>
-          <img src="../images/Frame3.png" alt="" />
-          <h4>Materiales de Alta Calidad</h4>
-          <p>
-            Nos aseguramos de que todos nuestros productos estén hechos con
-            materiales de la más alta calidad.
-          </p>
-        </article>
-        <article>
-          <img src="../images/Frame4.png" alt="" />
-          <h4>Diseños Exclusivos</h4>
-          <p>
-            Cada producto está diseñado pensando en los desarrolladores, con
-            estilos únicos que no encontrarás en ningún otro lugar.
-          </p>
-        </article>
+      <!-- componente quality-promise -->
+      <!-- section para padding superior e inferior -->
+      <!-- contenedor para padding left y right -->
+      <section class="section quality">
+        <div class="container">
+          <h2 class="quality__title">Nuestra Promesa de Calidad</h2>
+          <!-- quality item -->
+          <div class="quality__list">
+            <article class="quality__card">
+              <img
+                src="../icons/Frame1.png"
+                alt=""
+                width="64px"
+                height="64px"
+                class="quality__icon"
+              />
+              <h3 class="quality__title">Entrega rápida</h3>
+              <p class="quality__description">
+                Recibe tus productos en tiempo récord, directo a tu puerta, para
+                que puedas disfrutar de ellos cuanto antes.
+              </p>
+            </article>
+            <article class="quality__card">
+              <img
+                src="../icons/Frame2.png"
+                alt=""
+                width="64px"
+                height="64px"
+                class="quality__icon"
+              />
+              <h3 class="quality__title">Satisfacción Garantizada</h3>
+              <p class="quality__description">
+                Tu felicidad es nuestra prioridad. Si no estás 100% satisfecho,
+                estamos aquí para ayudarte con cambios o devoluciones.
+              </p>
+            </article>
+            <article>
+              <img
+                src="../icons/Frame3.png"
+                alt=""
+                width="64px"
+                height="64px"
+                class="quality__icon"
+              />
+              <h3 class="quality__title">Materiales de Alta Calidad</h3>
+              <p class="quality__description">
+                Nos aseguramos de que todos nuestros productos estén hechos con
+                materiales de la más alta calidad.
+              </p>
+            </article>
+            <article class="quality__card">
+              <img
+                src="../icons/Frame4.png"
+                alt=""
+                width="64px"
+                height="64px"
+                class="quality__icon"
+              />
+              <h3 class="quality__title">Diseños Exclusivos</h3>
+              <p class="quality__description">
+                Cada producto está diseñado pensando en los desarrolladores, con
+                estilos únicos que no encontrarás en ningún otro lugar.
+              </p>
+            </article>
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <section>
         <div>
           <article>

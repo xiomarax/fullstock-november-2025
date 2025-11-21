@@ -1,5 +1,5 @@
 /* mobile */
-.section {
+.section-sm {
   padding-bottom: 3rem;
   padding-top: 3rem;
 }
@@ -7,15 +7,15 @@
 /* tablet */
 @media (min-width: 40rem) {
   .section {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
 }
  
 /* pc */
 @media (min-width: 64rem) {
   .section {
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 }
