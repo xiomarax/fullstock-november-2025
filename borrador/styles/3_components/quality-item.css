@@ -1,0 +1,40 @@
+.quality__list {
+    /* display: flex; */
+   flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.quality__card {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  
+  flex-wrap: wrap;
+}
+
+.quality__card__icon{
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.quality__card__icon img {
+  /* width: 100%; */
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.quality__card__title {
+  color: var(--foreground);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.quality__card__description{
+  color: var(--muted-foreground);
+  font-weight: 400;
+  margin-bottom: 2rem;
+  text-align: center;
+  
+}

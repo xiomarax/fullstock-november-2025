@@ -1,18 +1,22 @@
-.category {
+/* .categories {
   display: flex;
+} */
+
+.categories__intro{
+  margin-bottom: 2.5rem;
 }
 
-/* para cell */
-@media (max-width: 23rem) {
-  .categories {
-    flex-direction: column;
-  }
+.categories__title {
+  color: var(--foreground);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  margin-bottom: 1rem;
 }
 
-/* para ordenadores */
-@media (min-width: 71rem) {
-  .categories {
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
+.categories__description {
+  color: var(--muted-foreground);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
 }
