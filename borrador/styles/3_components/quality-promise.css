@@ -1,7 +1,8 @@
+/* contenedor */
 .quality {
-  flex: 1;
+  /* flex: 1; */
   background-color: var(--muted-background);
-  display: flex;
+  /* display: flex; */
 }
 
 .quality__title {
@@ -13,3 +14,17 @@
   text-align: center;
 }
 
+.quality__list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+}
+
+@media (min-width: 40rem) {
+  .quality__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

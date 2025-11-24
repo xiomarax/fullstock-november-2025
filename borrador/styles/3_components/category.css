@@ -1,7 +1,7 @@
 .category {
   flex: 1;
-  max-width: 60rem;
-  max-height: 30rem;
+  max-width: 21.4375rem;
+  max-height: 21.041875rem;
   text-decoration: none;
   flex-direction: row;
 }
@@ -50,7 +50,7 @@
     height: 23rem;
   }
 }
- 
+
 @media (min-width: 64rem) {
   .category {
     width: 18.75rem;

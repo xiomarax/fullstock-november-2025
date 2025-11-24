@@ -6,16 +6,16 @@
  
 /* tablet */
 @media (min-width: 40rem) {
-  .section {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
+  .section-sm {
+    padding-bottom: 3.5rem;
+    padding-top: 3.5rem;
   }
 }
  
 /* pc */
 @media (min-width: 64rem) {
-  .section {
-    padding-left: 4rem;
-    padding-right: 4rem;
+  .section-sm {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
   }
 }

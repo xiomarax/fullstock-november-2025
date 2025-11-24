@@ -6,6 +6,8 @@
   padding-right: 1rem;
 }
  
+/* para tablet */
+/* si el ancho supera los 40rem */
 @media (min-width: 40rem) {
   .container {
     padding-left: 1.5rem;
@@ -13,6 +15,7 @@
   }
 }
  
+/* para ordenadores */
 @media (min-width: 64rem) {
   .container {
     padding-left: 2rem;

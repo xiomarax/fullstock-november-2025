@@ -2,8 +2,15 @@
   display: flex;
 } */
 
-.categories__intro{
+.categories__intro {
   margin-bottom: 2.5rem;
+}
+
+.categories__list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .categories__title {
